@@ -95,7 +95,7 @@ class Gallery extends Component {
           <img src={imageUrl} alt={altName} className="display-image" />
           <div className="thumbnail-section">
             <h1 className="thumbnail-heading">Nature Photography</h1>
-            <p className="photographer-name">Nature Photography by Rahul</p>
+            <p className="photographer-name">Nature Photography by Dinesh</p>
             <ul className="thumbnail-items-list">
               {imagesList.map(eachImage => (
                 <ThumbnailItem
