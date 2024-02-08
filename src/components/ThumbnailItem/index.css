@@ -1,0 +1,27 @@
+.item-list {
+  list-style-type: none;
+}
+
+.thumbnail-image {
+  width: 100%;
+  opacity: 0.4;
+}
+.changeOpacity {
+  opacity: 1;
+}
+.button {
+  width: 67px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background-color: transparent;
+  border-style: none;
+  border-width: 0;
+  padding: 0;
+}
+
+@media (max-width: 767px) {
+  .button {
+    width: 37px;
+    margin-right: 4px;
+  }
+}
